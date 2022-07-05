@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Periodo__c</fullName>
+    <externalId>false</externalId>
+    <label>Periodo</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manhã</fullName>
+                <default>true</default>
+                <label>Manhã</label>
+            </value>
+            <value>
+                <fullName>Tarde</fullName>
+                <default>false</default>
+                <label>Tarde</label>
+            </value>
+            <value>
+                <fullName>Noite</fullName>
+                <default>false</default>
+                <label>Noite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Turma__c</fullName>
+    <externalId>false</externalId>
+    <label>Turma</label>
+    <referenceTo>Turma__c</referenceTo>
+    <relationshipLabel>Turma_Aluno</relationshipLabel>
+    <relationshipName>Turma_Aluno</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

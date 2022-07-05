@@ -1,0 +1,13 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card  variant="Narrow"  title={turma} icon-name="standard:Notas_c">
+        <div style="height: 300px;">
+            <lightning-datatable 
+                    hide-checkbox-column="true"
+                    key-field="id"
+                    data={data}
+                    columns={columns}>
+            </lightning-datatable>
+        </div> 
+    </lightning-card>
+</template>
